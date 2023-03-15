@@ -1,2 +1,5 @@
-package com.academy.entity;public class CountryCode {
+package com.academy.entity;
+
+public enum CountryCode {
+    LT, LV, EE, SE
 }

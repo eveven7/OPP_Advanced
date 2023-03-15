@@ -8,9 +8,12 @@ import java.util.Optional;
 
 public interface CustomerRepository {
 
-    public List<Customer> findAll();
+    List<Customer> customers = new ArrayList<>();
 
-    public void insert(Customer customer);
+    List<Customer> findAll();
 
-    public void deleteById(String customerId);
+    void insert(Customer customer);
+
+
+    void deleteById(String customerId);
 }
